@@ -1,1 +1,1 @@
-# datnyart.github.io
+# datny.art
