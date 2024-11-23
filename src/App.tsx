@@ -1,11 +1,5 @@
-import './App.css'
-
 function App() {
-  return (
-    <>
-      <p className="read-the-docs">datny.art</p>
-    </>
-  )
+  return <div className="bg-red-300">jajco</div>;
 }
 
-export default App
+export default App;
