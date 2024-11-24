@@ -1,3 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Amelie Fierce";
+  src: url("/fonts/amelie-fierce.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Jakarta";
+  src: url("/fonts/jakarta.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Jakarta Italic";
+  src: url("/fonts/jakarta-italic.ttf") format("truetype");
+}
