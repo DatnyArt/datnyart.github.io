@@ -44,16 +44,11 @@ export const Hero = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <a
-            className="flex items-center gap-2 px-6 py-4 bg-black"
-            href="https://1millioncubes.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <div className="flex items-center gap-2 px-6 py-4 bg-black">
             <span className="font-semibold">View Project</span>
             <ArrowRight className="size-6" />
             <Cube className="size-6" />
-          </a>
+          </div>
         </a>
       </div>
       <img
