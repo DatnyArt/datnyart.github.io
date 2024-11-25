@@ -9,7 +9,7 @@ export const Monadology = () => {
       <img
         src="https://utfs.io/f/5s6Tk8MoZavNWRKY1nzaAKF7J5cUvelrhIPOSXVz1GW8qYgs"
         alt="Section Blue"
-        className="absolute top-0 right-0 w-full h-full object-cover"
+        className="absolute top-0 right-0 object-cover w-full h-full"
       />
       <div className="mt-8 xl:mt-[174px] xl:max-w-[726px] xl:mr-auto relative z-10 px-4 xl:pl-[60px] pb-[60px] xl:pb-[86px]">
         <div className="flex flex-col gap-1">
@@ -28,7 +28,7 @@ export const Monadology = () => {
             <MonadSvg />
           </div>
         </div>
-        <div className="mt-6 flex flex-col gap-6 tracking-wider">
+        <div className="flex flex-col gap-6 mt-6 tracking-wider">
           <p>
             The project we are developing for the Monad community is inspired by
             Leibniz's concept of monads.
@@ -51,7 +51,7 @@ export const Monadology = () => {
             chain.
           </p>
         </div>
-        <div className="mt-4 flex items-center gap-2">
+        <div className="flex items-center gap-2 mt-4">
           <div className="flex flex-col font-instrument-serif italic leading-[1.2] tracking-wider">
             <span className="text-[32px]">PICKLOCK</span>
             <span className="text-[24px]">NFT KEY</span>
@@ -61,10 +61,10 @@ export const Monadology = () => {
             alt="Key"
           />
           <span className="font-instrument-serif italic leading-[1.2] tracking-wider text-[32px]">
-            1500 x $10
+            1500 x $50
           </span>
         </div>
-        <p className="tracking-wider mt-2">
+        <p className="mt-2 tracking-wider">
           To launch this project within the Monad community, we need to first
           sell 90% of our collection.
         </p>
@@ -72,9 +72,9 @@ export const Monadology = () => {
           Let’s get it done, NADs.
         </p>
 
-        <div className="p-px bg-gradient-to-r from-black to-white mt-4 w-fit xl:mt-8">
-          <div className="py-4 px-6 bg-black flex items-center gap-2">
-            <span className="font-semibold">Buy Now on OpenSea</span>
+        <div className="p-px mt-4 bg-gradient-to-r from-black to-white w-fit xl:mt-8">
+          <div className="flex items-center gap-2 px-6 py-4 bg-black">
+            <span className="font-semibold">Soon on OpenSea</span>
             <ArrowRight className="size-6" />
             <OpenSeaSvg className="size-6" />
           </div>

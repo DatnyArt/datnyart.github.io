@@ -10,7 +10,7 @@ export const Totems = () => {
       <img
         src="https://utfs.io/f/5s6Tk8MoZavNoWHFvw2QvqWh5RBHGa3efn4dTwcCU9kzJxVb"
         alt="Section Red"
-        className="absolute top-0 left-0 w-full h-full object-cover"
+        className="absolute top-0 left-0 object-cover w-full h-full"
       />
       <div className="mt-8 xl:mt-[174px] xl:max-w-[726px] w-full xl:ml-auto relative z-10 px-4 xl:pr-[60px] pb-[60px] xl:pb-[86px]">
         <h3 className="text-[56px] leading-[68px] font-instrument-serif italic tracking-wide xl:hidden">
@@ -27,7 +27,7 @@ export const Totems = () => {
             </p>
           </div>
         </div>
-        <div className="mt-6 flex flex-col gap-6 tracking-wider">
+        <div className="flex flex-col gap-6 mt-6 tracking-wider">
           <p>
             The next community games project will be based on the theme of
             creating and customising Totems. In the future, the NFT masks will
@@ -59,7 +59,7 @@ export const Totems = () => {
             <MaskCard key={mask.id} mask={mask} />
           ))}
         </div>
-        <p className="tracking-wider mt-4 xl:mt-8">
+        <p className="mt-4 tracking-wider xl:mt-8">
           To start production on this project, we first need to sell 80% of our
           collection.
         </p>
@@ -67,9 +67,9 @@ export const Totems = () => {
           become one of the first backers and help us reach this goal.
         </p>
 
-        <div className="p-px bg-gradient-to-r from-black to-white mt-4 w-fit xl:mt-8">
-          <div className="py-4 px-6 bg-black flex items-center gap-2">
-            <span className="font-semibold">Buy Now on OpenSea</span>
+        <div className="p-px mt-4 bg-gradient-to-r from-black to-white w-fit xl:mt-8">
+          <div className="flex items-center gap-2 px-6 py-4 bg-black">
+            <span className="font-semibold">Soon on OpenSea</span>
             <ArrowRight className="size-6" />
             <OpenSeaSvg className="size-6" />
           </div>
