@@ -10,14 +10,14 @@ export const Hero = () => {
         background: `linear-gradient(157.22deg, #0C0C0C 51.72%, #232323 151.39%),
                   linear-gradient(358.69deg, rgba(7, 7, 7, 0) 51.68%, #07334D 97.23%)`,
       }}
-      className="w-full flex flex-col items-center relative px-4"
+      className="relative flex flex-col items-center w-full px-4"
     >
       <img
         src="https://utfs.io/f/5s6Tk8MoZavNp1ymm8Ve469xbChpRQ8Jyka7cUzwP5WqdfE2"
-        className="absolute left-0 top-0 w-full h-full object-cover object-left"
+        className="absolute top-0 left-0 object-cover object-left w-full h-full"
       />
       <DatnyLogoBackground className="absolute left-1/2 -translate-x-1/2 min-w-[590px] h-auto max-w-[2110px] w-full lg:top-[-6vw] top-[32px]" />
-      <div className="w-full flex flex-col gap-8 items-center pt-4 relative z-10">
+      <div className="relative z-10 flex flex-col items-center w-full gap-8 pt-4">
         <img
           src="https://utfs.io/f/5s6Tk8MoZavNsoXJV0dc9mt6WPAbiJ7jazxOQ52YHMdk0vZU"
           alt="Datny Logo"
@@ -38,13 +38,23 @@ export const Hero = () => {
       </h1>
       <div className="mt-[65px] flex flex-col items-center relatize z-10 mb-[105px]">
         <CubeArrow className="w-[112px]" />
-        <div className="p-px bg-gradient-to-r from-black to-white mt-8 ">
-          <div className="py-4 px-6 bg-black flex items-center gap-2">
+        <a
+          className="p-px mt-8 bg-gradient-to-r from-black to-white "
+          href="https://1millioncubes.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <a
+            className="flex items-center gap-2 px-6 py-4 bg-black"
+            href="https://1millioncubes.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <span className="font-semibold">View Project</span>
             <ArrowRight className="size-6" />
             <Cube className="size-6" />
-          </div>
-        </div>
+          </a>
+        </a>
       </div>
       <img
         src="https://utfs.io/f/5s6Tk8MoZavN8L9GsAgj1TDEVKf7gyGN3RvSsd4m2oblBuUw"

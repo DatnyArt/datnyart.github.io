@@ -1,13 +1,12 @@
 import DatnyLogo from "@/assets/icons/logo.svg";
 import XIcon from "@/assets/icons/X.svg";
-import TelegramIcon from "@/assets/icons/telegram.svg";
 
 export const Statement = () => {
   return (
     <section className="relative">
       <img
         src="https://utfs.io/f/5s6Tk8MoZavNXj2AzghIfZYnVJP2iyWwmeThq7p6jUl8rE05"
-        className="absolute left-0 object-cover h-full w-full object-top"
+        className="absolute left-0 object-cover object-top w-full h-full"
       />
       <div className="flex flex-col items-center italic font-instrument-serif tracking-wider leading-none px-4 max-w-[788px] w-full mx-auto relative z-10">
         <div className="mt-[88px] flex flex-col items-center md:block">
@@ -39,8 +38,13 @@ export const Statement = () => {
         <div className="mt-8 flex items-center gap-2.5 flex-col">
           <DatnyLogo />
           <div className="flex items-center gap-5">
-            <XIcon />
-            <TelegramIcon />
+            <a
+              href="https://x.com/Datny_"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <XIcon />
+            </a>
           </div>
           <span className="text-[#A6A6A6] text-sm font-jakarta not-italic tracking-wide mb-4">
             ©2024 x DATNY{" "}
