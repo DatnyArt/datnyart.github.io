@@ -47,8 +47,11 @@ export const Monadology = () => {
             have the ability to start the game at a different time than others.
           </p>
           <p>
-            When the Monad chain is ready we will bridge all NFTs to the Monad
-            chain.
+          We need time for development and testing, so it is important to start
+            the project early, so we want to publish this collection on Ethereum.
+            We assure you that as soon as the Monad chain is ready, we will
+            move all NFTs to it. Thank you for your understanding and
+            cooperation.
           </p>
         </div>
         <div className="flex items-center gap-2 mt-4">
@@ -59,6 +62,7 @@ export const Monadology = () => {
           <img
             src="https://utfs.io/f/5s6Tk8MoZavN5bkrK9oMoZavNIhFYlutkwLn8e9CMfPzR1GQ"
             alt="Key"
+            className="w-[100px] h-auto"
           />
           <span className="font-instrument-serif italic leading-[1.2] tracking-wider text-[32px]">
             1500 x $50
