@@ -75,14 +75,19 @@ export const Monadology = () => {
         <p className="uppercase font-bold italic tracking-wider mt-4 text-[#FFE500]">
           Let’s get it done, NADs.
         </p>
-
-        <div className="p-px mt-4 bg-gradient-to-r from-black to-white w-fit xl:mt-8">
-          <div className="flex items-center gap-2 px-6 py-4 bg-black">
-            <span className="font-semibold">Soon on OpenSea</span>
-            <ArrowRight className="size-6" />
-            <OpenSeaSvg className="size-6" />
+        <a
+          href="https://opensea.io/collection/monadology"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div className="p-px mt-4 bg-gradient-to-r from-black to-white w-fit xl:mt-8">
+            <div className="flex items-center gap-2 px-6 py-4 bg-black">
+              <span className="font-semibold">Buy Now on OpenSea</span>
+              <ArrowRight className="size-6" />
+              <OpenSeaSvg className="size-6" />
+            </div>
           </div>
-        </div>
+        </a>
       </div>
     </div>
   );
